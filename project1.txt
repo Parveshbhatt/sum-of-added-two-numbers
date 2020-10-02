@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int a,b,sum=0;
-printf("enter number 1 -\n ");
-scanf("%d",&a);
-printf("enter number 2 -\n");
-scanf("%d",&b);
+int a,b,sum;
+printf("\nenter first number- ");
+scanf("%d",a);
+printf("\nenter secondnumber- ");
+scanf("%d",b);
 sum=a+b;
 printf("sum of added numbers = %d",sum);
 return 0;
